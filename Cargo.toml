@@ -1,0 +1,15 @@
+[package]
+name = "vis-eq-win-ui"
+version = "0.1.0"
+authors = ["100044123"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+dioxus = { version = "0.5", features = ["desktop", "router"] }
+VisEQ = {git = "https://github.com/ThomasDaniel09/VisEQ.git", branch = "main"}
+
+# Debug
+dioxus-logger = "0.5.1"
